@@ -1,5 +1,3 @@
-[![](https://img.shields.io/npm/dm/react-native-prompt.svg?style=flat-square)](https://www.npmjs.com/package/react-native-prompt)
-
 # react-native-pop-up-fill
 
 A cross-platform pop-up-fill component for React Native.
@@ -9,12 +7,6 @@ A cross-platform pop-up-fill component for React Native.
 ```
 $ npm install react-native-pop-up-fill --save
 ```
-
-## Demo
-
-| iOS | Android |
-| --- | ------- |
-| ![](./demo.ios.gif) | ![](./demo.android.gif) |
 
 ## Basic Usage
 
@@ -32,8 +24,6 @@ import PopUpFill from 'react-native-pop-up-fill';
       message: `You said "${value}"`
     }) }/>
 ```
-
-Please refer to the full working example [here](./PromptExample/PromptExample.js).
 
 ## API
 
