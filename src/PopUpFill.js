@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import styles from './styles';
 
-export default class Prompt extends Component {
+export default class PopUpFill extends Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
     visible: PropTypes.bool,
