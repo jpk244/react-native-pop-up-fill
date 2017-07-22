@@ -1,2 +1,2 @@
-import PopUpFill from './PopUpFill/';
+import PopUpFill from './PopUpFill';
 export default PopUpFill;
