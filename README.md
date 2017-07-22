@@ -1,13 +1,13 @@
 [![](https://img.shields.io/npm/dm/react-native-prompt.svg?style=flat-square)](https://www.npmjs.com/package/react-native-prompt)
 
-# react-native-prompt
+# react-native-pop-up-fill
 
-A cross-platform prompt component for React Native.
+A cross-platform pop-up-fill component for React Native.
 
 ## Installation
 
 ```
-$ npm install react-native-prompt --save
+$ npm install react-native-pop-up-fill --save
 ```
 
 ## Demo
@@ -19,7 +19,7 @@ $ npm install react-native-prompt --save
 ## Basic Usage
 
 ```js
-import Prompt from 'react-native-prompt';
+import PopUpFill from 'react-native-pop-up-fill';
 
 // Inside render()
 <Prompt
