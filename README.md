@@ -27,10 +27,6 @@ import PopUpFill from 'react-native-pop-up-fill';
     placeholder="Start typing"
     defaultValue="Hello"
     visible={ this.state.promptVisible }
-    onCancel={ () => this.setState({
-      promptVisible: false,
-      message: "You cancelled"
-    }) }
     onSubmit={ (value) => this.setState({
       promptVisible: false,
       message: `You said "${value}"`
@@ -47,38 +43,13 @@ Props:
 - `title` (string, required) -- The title text of the prompt
 - `placeholder` (string) -- The placeholder text of the prompt
 - `defaultValue` (string) -- The default value of the prompt
-- `onCancel` (function, required) -- Function that is called when user cancels prompt
 - `onSubmit` (function, required) -- Function that is called with user's value when they submit
 - `submitText` (string) -- The string that is displayed on the submit button (defaults to "OK")
-- `cancelText` (string) -- The string that is displayed on the cancel button (defaults to "Cancel")
 - `onChangeText` (function) -- Function that is called with user input when it changes.
 - `textInputProps` (Object) -- Additional props on the input element
-
-## Testing
-
-Install dev modules:
-
-```
-npm install
-```
-
-### Run tests
-
-```
-npm test
-```
 
 ## Changelog
 
 ### 1.0.0
 
-- Updates `value` when `defaultValue` changes. (Thanks https://github.com/vessp)
-- Removes unnecessary `flex: 1` style. (Thanks https://github.com/stevehollaar)
-
-### 0.18.6
-
-- Adds `textInputProps` to allow additional props to be passed to the input element. Thanks @yueshuaijie!
-
-### 0.18.5 
-
-- Fixed compatibility with React Native 0.27.2 (thanks [@sibelius](https://github.com/sibelius) and [@tonyxiao](https://github.com/tonyxiao)!)
+-Cloned and modified react-native-prompt by [@jaysoo](https://github.com/jaysoo) because I did not want a cancel button, but loved the component.
